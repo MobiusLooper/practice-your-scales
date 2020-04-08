@@ -1,0 +1,20 @@
+button {
+  border-color: #db5f4d;
+  color: #db5f4d;
+  text-align: center;
+  background-color: #ededed;
+}
+
+button:focus {
+   outline: none !important;
+   box-shadow: none;
+}
+
+body {
+  margin-top: 100px !important;
+}
+
+.wrapper {
+  text-align: center;
+  margin: 10px;
+}
