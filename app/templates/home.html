@@ -8,9 +8,11 @@
     
   <body>
     <div class='wrapper'>
-      <button id='next-button'>scale me</button>
+      <div class='scale-button'>
+        <button id='next-button'>scale me</button>
+      </div>
+      <div id='scale'>&nbsp</div>
     </div>
-    <div class='wrapper' id='scale'></div>
   </body>
   
   <script src="{{ url_for('static', filename='js/app.js') }}"></script>

@@ -16,5 +16,18 @@ body {
 
 .wrapper {
   text-align: center;
-  margin: 10px;
+  /*margin: 10px;*/
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.scale-button {
+	margin-bottom: 10px;
+}
+
+@media (max-width: 700px) {
+   /* PUT CSS HERE TO ALTER WEBSITE TO SINGLE COLUMN */
 }
